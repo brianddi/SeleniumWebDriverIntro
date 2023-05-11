@@ -32,6 +32,10 @@ public class SimpleFormDemo {
         Assert.assertEquals( true, yourMessage.isDisplayed());
     }
 
+
+
+
+
     @Test //verifica ca nu exista nimic scris in casuta de text
     public void checkThatTheInputFieldIsEmpty() {
         driver.get("https://www.lambdatest.com/selenium-playground/simple-form-demo");
